@@ -87,7 +87,8 @@ $ docker logs --follow <Container_ID>
 ```
 
 6) Access to Liferay WebConsole
-http://localhost:8080/
+
+url: http://localhost:8080/
 
 user: test@liferay.com
 
