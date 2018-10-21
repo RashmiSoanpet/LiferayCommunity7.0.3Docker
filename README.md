@@ -34,9 +34,9 @@ Volumes:
 
 DRIVER     |   VOLUME NAME
 -----------|---------------
-local          data_volumen
-local          mysql_volumen
-local          osgi_volumen
+local      |   data_volumen
+local      |   mysql_volumen
+local      |   osgi_volumen
 
 
 
