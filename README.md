@@ -24,17 +24,19 @@ liferaycommunity7.0.3:1.0 based on centos:7.5
 
 Nets:
 
-NETWORK ID          NAME                DRIVER              SCOPE
-27d159518a6b        bridge              bridge              local
-6c3707ce1234        host                host                local
-64975df8e12d        liferay-net         bridge              local
+NETWORK ID     |     NAME           |     DRIVER       |       SCOPE
+---------------|--------------------|------------------|-------------
+27d159518a6b   |     bridge         |     bridge       |       local
+6c3707ce1234   |     host           |     host         |       local
+64975df8e12d   |     liferay-net    |     bridge       |       local
 
 Volumes:
 
-DRIVER              VOLUME NAME
-local               data_volumen
-local               mysql_volumen
-local               osgi_volumen
+DRIVER     |   VOLUME NAME
+-----------|---------------
+local          data_volumen
+local          mysql_volumen
+local          osgi_volumen
 
 
 
