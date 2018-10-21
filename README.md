@@ -19,33 +19,34 @@ Docker Infrastructure
 Images:
 
 mysql_liferay:1.0 based on mysql:5.7
+
 liferaycommunity7.0.3:1.0 based on centos:7.5
 
 
 Usage
 ------------------------
 
-1)Clone the project:
+1) Clone the project:
 ```
 $ git clone https://github.com/felix-centenera/LiferayCommunity7.0.3Docker.git
 $ cd LiferayCommunity7.0.3Docker
 ```
 
-2)Build the images:
+2) Build the images:
 
-Mysql database image with the user, database, and privileges required:
+Build Mysql database image with the user, database, and privileges required:
 ```
 $ cd dbmysql
 $ docker build -t mysql_liferay:1.0 .
 ```
 
-Build the Liferay image
+Build Liferay image
 ```
-cd appliferay
+$ cd appliferay
 $ docker build -t liferaycommunity7.0.3:1.0 .
 ```
 
-3)Create a docker network:
+3) Create a docker network:
 ```
 $ docker network create liferay-net
 ```
@@ -66,7 +67,9 @@ $ docker logs --follow <Container_ID>
 
 6) Access to Liferay WebConsole
 http://localhost:8080/
+
 user: test@liferay.com
+
 password: test
 
 7) You can deploy a Theme. Example:
