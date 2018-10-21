@@ -1,16 +1,18 @@
-Liferay Community Edition Portal 7.0.3 GA4
+Docker Liferay Community Edition Portal 7.0.3 GA4
 ========================================
 
 
 Description:
 --------------------------------
-Development Liferay Community Edition Portal 7.0.3 GA4 environment with Docker
+Development Liferay Community Edition Portal 7.0.3 GA4 environment with Docker.
 
 
-Test on:
+Developed & Test on:
 --------------------------------
 Docker Client Version: 18.06.1-ce
+
 Docker Server Version: 18.06.1-ce
+
 OS: Ubuntu 18.04.1 LTS
 
 
@@ -18,9 +20,11 @@ Docker Infrastructure
 --------------------------------
 Images:
 
-mysql_liferay:1.0 based on mysql:5.7
+New_Images                 | Based On
+---------------------------|---------
+mysql_liferay:1.0          | mysql:5.7
+liferaycommunity7.0.3:1.0  | centos:7.5
 
-liferaycommunity7.0.3:1.0 based on centos:7.5
 
 Nets:
 
