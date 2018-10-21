@@ -27,7 +27,7 @@ Usage
 
 1)Clone the project:
 ```
-$ git clone <Git repository>
+$ git clone https://github.com/felix-centenera/LiferayCommunity7.0.3Docker.git
 $ cd LiferayCommunity7.0.3Docker
 ```
 
