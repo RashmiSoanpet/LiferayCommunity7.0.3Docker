@@ -1,5 +1,5 @@
 Docker Liferay Community Edition Portal 7.0.3 GA4
-========================================
+=================================================
 
 
 Description:

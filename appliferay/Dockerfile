@@ -2,7 +2,7 @@
 FROM centos:latest
 
 # Update the repository sources list and install some packages
-#RUN yum update && yum install -y unzip && yum install -y wget && yum install -y telnet
+# RUN yum update && yum install -y unzip && yum install -y wget && yum install -y telnet
 RUN yum update -y && yum install -y unzip wget telnet
 
 # Install java8 jdk && Tunning java
