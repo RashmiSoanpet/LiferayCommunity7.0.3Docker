@@ -77,7 +77,7 @@ $ docker network create liferay-net
 ```
 $ docker run -t -d --net liferay-net --name mysql_dev -e MYSQL_ROOT_PASSWORD=test -v mysql_volumen:/var/lib/mysql --publish 0.0.0.0:3306:3306 mysql_liferay:1.0
 
-$ docker run -it -d --net liferay-net --name liferay_dev -v data_volumen:/opt/liferay-portal/data -v osgi_volumen:/opt/liferay-ce-portal-7.0-ga4/osgi --publish 0.0.0.0:8080:8080  liferaycommunity7.0.3:1.
+$ docker run -it -d --net liferay-net --name liferay_dev -v data_volumen:/opt/liferay-portal/data -v osgi_volumen:/opt/liferay-ce-portal-7.0-ga4/osgi --publish 0.0.0.0:8080:8080  liferaycommunity7.0.3:1.0
 
 ```
 
